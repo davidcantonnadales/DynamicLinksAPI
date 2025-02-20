@@ -1,0 +1,23 @@
+@DynamicLinksAPI_HostAddress = http://localhost:5149
+
+### Crear un enlace corto
+POST {{DynamicLinksAPI_HostAddress}}/api/shortlinks/create
+Content-Type: application/json
+Accept: application/json
+
+{
+  "destinationUrl": "https://www.ejemplo.com",
+  "expiration": "2025-12-31T23:59:59Z"
+}
+
+###
+
+### Redirigir un enlace corto (reemplaza {shortId} por el ID generado)
+GET {{DynamicLinksAPI_HostAddress}}/api/shortlinks/{shortId}
+Accept: application/json
+
+###
+
+### Verificar el estado de la API (opcional)
+GET {{DynamicLinksAPI_HostAddress}}/
+Accept: application/json
