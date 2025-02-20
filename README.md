@@ -15,7 +15,7 @@
 
 Aprende cómo construir esta solución **paso a paso** con mi tutorial detallado en el blog:
 
-👉 **[Lee el Tutorial Completo Aquí]([https://www.davidcanton.net](https://davidcanton.net/2025/02/tu-propia-alternativa-a-firebase-dynamic-links-para-2025/))**
+👉 **Lee el Tutorial Completo Aquí: https://davidcanton.net/2025/02/tu-propia-alternativa-a-firebase-dynamic-links-para-2025**
 
 En el tutorial descubrirás:
 - Cómo configurar **Firebase Hosting**.
